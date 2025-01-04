@@ -93,9 +93,13 @@
     #contact-heading{
         text-align: center !important;
     }
-    .section-contact-title{
-        padding: 1% 35% 0 35% !important;
+    .section-test-title{
+        padding: 4% 25% 0 25% !important;
     }
+    .section-contact-title{
+        padding: 1% 25% 0 25% !important;
+    }
+    
 }
 
 .gradient-background {
@@ -217,7 +221,7 @@ body{
 .section-title{
     /* padding: 20px 300px 20px 300px; not good for responsiveness */
     /* padding-inline: ; */
-    padding: 0 35%;
+    padding: 0 30%;
 }
 .facilities-title {
     text-align: center;
@@ -339,6 +343,7 @@ body{
 }
 .testimonial-text{
     color: #fff;
+    font-size: large;
 }
 .testimonial-profile{
     color: #fff;
@@ -351,7 +356,7 @@ body{
 
 
 
-/*=========== testimonials-section ===========*/ 
+/*=========== contact-section ===========*/ 
 
 #contact-section{
     background-color: #D0B8A8;
