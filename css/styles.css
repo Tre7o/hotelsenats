@@ -129,7 +129,6 @@ body{
     margin: 0;
     text-align: center;  
     overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
@@ -271,6 +270,8 @@ body::-webkit-scrollbar {
 .facility-border-right {
     border-right: 2px solid #000; /* Adjust color and width */
 }
+
+
 
 /*=========== amenities-section ===========*/ 
 
