@@ -129,7 +129,11 @@ body{
     margin: 0;
     text-align: center;  
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
 }
 
 
