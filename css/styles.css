@@ -152,7 +152,7 @@ body{
 
 body::-webkit-scrollbar {
     display: none; /* For Chrome, Safari, and Edge */
-}
+}  
 
 .container {
     overflow-x: hidden;
