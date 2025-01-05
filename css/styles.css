@@ -46,6 +46,9 @@
         padding: 1em 0 !important;
     }
 
+    .section-title{
+        padding: 3% 30% !important;
+    }
 
     .facilities-line::before,
     .facilities-line::after {
@@ -69,6 +72,9 @@
         color: black;
     }
 
+    .section-test-title{
+        padding: 4% 25% 0 25% !important;
+    }
     .testimonials-line::before,
     .testimonials-line::after {
         flex-grow: 0.5; /* Adjust line length for smaller screens */
@@ -93,9 +99,7 @@
     #contact-heading{
         text-align: center !important;
     }
-    .section-test-title{
-        padding: 4% 25% 0 25% !important;
-    }
+    
     .section-contact-title{
         padding: 1% 25% 0 25% !important;
     }
