@@ -226,7 +226,7 @@ body::-webkit-scrollbar {
 .section-title{
     /* padding: 20px 300px 20px 300px; not good for responsiveness */
     /* padding-inline: ; */
-    padding: 0 30%;
+    padding: 3% 35%;
 }
 .facilities-title {
     text-align: center;
@@ -350,7 +350,7 @@ body::-webkit-scrollbar {
 }
 .testimonial-text{
     color: #fff;
-    font-size: large;
+    font-size: larger;
 }
 .testimonial-profile{
     color: #fff;
@@ -369,7 +369,7 @@ body::-webkit-scrollbar {
     background-color: #D0B8A8;
 }
 .section-contact-title{
-    padding: 3% 35% 0 35%;
+    padding: 1% 35% 0 35%;
 }
 
 .contact-title {
@@ -398,7 +398,7 @@ body::-webkit-scrollbar {
     border-radius: 50%;
 }
 .contact-box{
-    padding: 5% 10%;
+    padding: 3% 10%;
 }
 #contact-heading{
     padding-bottom: 2%;
