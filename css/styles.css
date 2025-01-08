@@ -165,9 +165,43 @@ body::-webkit-scrollbar {
     
 } */
 
-#home-section{
-    height: 100%;
-    /* height: 100vh; */
+#home-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 5em;
+    padding: 0 3em;
+    flex-shrink: 0; /* Ensures the navbar stays at its height */
+}
+
+.cta {
+    width: 40% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Makes the middle section take up the remaining space */
+}
+
+.cta-text {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.lower-nav {
+    width: 100%;
+    padding: 1.5em 4em;
+    align-items: center;
+    background-color: #000000;
+    flex-shrink: 0; /* Prevents the lower nav from shrinking */
+}
+
+/* #home-section{
+    height: 100vh;
     width: 100%;
 }
 
@@ -178,31 +212,33 @@ body::-webkit-scrollbar {
 
 .cta{
     width: 40% !important;
-    height: 390px;
+    height: 390px; 
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} this was originally uncommented */
 
-.cta-text{
+/* .cta-text{
     color: white;
     text-align: center;
     font-size: 30px;
-}
+} this was originally uncommented */ 
+
+
 
 /* .nav-item{
     padding-left: 1.125em !important;
 } */
 
 /* lower-nav */
-.lower-nav{
-    /* position: absolute;
-    bottom: 0; */
+/* .lower-nav{
+    position: absolute;
+    bottom: 0; these 2 were originally commented 
     width: 100%;
     padding: 1.5em 4em;
     align-items: center;
     background-color: #000000;
-}
+} */
 
 #lower-title{
     justify-content: center;
