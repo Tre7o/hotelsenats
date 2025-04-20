@@ -81,10 +81,10 @@
     }
 
     .amenities-title {
-        margin: 10% 0;
+        margin: 6.5% 0;
         text-align: center;
         font-weight: bold;
-        color: black;
+        color: rgb(171, 148, 148);
     }
 
     .section-test-title{
