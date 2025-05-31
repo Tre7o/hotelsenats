@@ -273,6 +273,30 @@ body::-webkit-scrollbar {
     color: #85586F;
 }
 
+/*=========== about-section ===========*/
+
+#about-image{
+    background-image: url('../assets/images/balcony.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#about-text{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+#about-group-title{
+    margin-bottom: 5%;
+    color: #85586F;
+}
+
+#about-group-subtitle{
+    margin-bottom: 5%;
+    font-weight: bold;
+}
 
 /*=========== facilities-section ===========*/
 
