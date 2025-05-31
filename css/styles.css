@@ -65,6 +65,13 @@
         padding: 3% 30% !important;
     }
 
+    #about-text{
+        align-items: center !important;
+        text-align: center !important;
+        padding: 15% 15% !important;
+        height: 30em;
+    }
+
     .facilities-line::before,
     .facilities-line::after {
         flex-grow: 0.5; /* Adjust line length for smaller screens */
@@ -276,7 +283,7 @@ body::-webkit-scrollbar {
 /*=========== about-section ===========*/
 
 #about-image{
-    background-image: url('../assets/images/balcony.jpg');
+    background-image: url('../assets/images/plant-view.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -342,8 +349,23 @@ body::-webkit-scrollbar {
     padding: 0 50px 0 50px;
 }
 .facility-image{
-    background-color: #85586F; 
-    height: 200px;
+    background-color: #85586F;
+    height: 30em;
+}
+#first-image{
+    background-image: url('../assets/images/bed.jpg');
+    background-size: cover;
+    background-position: center;  
+}
+#second-image{
+    background-image: url('../assets/images/wine-bottle.webp');
+    background-size: cover;
+    background-position: center;  
+}
+#third-image{
+    background-image: url('../assets/images/balcony-view.jpg');
+    background-size: cover;
+    background-position: center;  
 }
 .facility-border-left {
     border-left: 2px solid #000; /* Adjust color and width */
